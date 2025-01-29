@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Konklussion på parametre:</h2>
+<div>
+    <p>Det er den mest enkle måde at gemme og hente data på.</p>
+    <p>der er tre måder det kan bruges på: let, var, const</p>
+    <p>Variabler kan indeholde 7 forskellige værider, men kun bruges en ad gangen:
+Boolean
+Number
+String
+Object
+Null
+Undefined
+Symbol
+</p>
+<p>TJEK NOTER HVIS DU VIL LÆSE MERE!!!</p>
+
+</div>
+
+<p> Kort sagt, så er Parametre værktøjer til at give funktioner data. Du skal være opmærksom på deres rækkefølge, antal og hvordan de kan påvirke ting udenfor funktionen.</p>
+<p> Parametre som variabler eller faste værdier:
+    Når vi bruger parametre, kan de enten være variabler, strings eller andre faste værdier. De fungerer som input til en funktion og bestemmer, hvordan funktionen udfører sit arbejde.
+</p>
+<p>
+    Hvordan parametre opfører sig:
+    Parametre opfører sig som midlertidige variabler inden i funktionen. De får deres værdier fra de argumenter, vi sender med, når vi kalder funktionen.
+</p>  
+<p>   
+    Navne på parametre:
+    Når vi definerer en funktion, giver vi parametrene navne. Disse navne fungerer som pladsholdere for de værdier, der bliver sendt med under et funktionskald. For eksempel:
+</p> 
+<p>
+   
+    function hej(navn) {
+    </p> 
+        <p>
+        console.log("Hej, " + navn);
+    </p> 
+    <p>
+    }
+    hej("Anna"); // Her er "Anna" værdien for parameteren "navn".
+</p> 
+<p>
+    Rækkefølgen af parametre:
+    Rækkefølgen betyder noget! Når du kalder en funktion, skal værdierne (argumenterne) matche rækkefølgen af parametrene. Ellers kan funktionen få forkerte data.
+</p>  
+    Antallet af parametre:
+    Hvis du sender flere eller færre argumenter, end funktionen forventer, kan det give problemer.
+    
+<p>
+    For få argumenter: Parametre uden værdi bliver undefined.
+    For mange argumenter: De ekstra argumenter bliver ignoreret, medmindre funktionen er designet til at håndtere dem.
+    Parametre, der påvirker andre variabler:
+    Hvis parametrene ændrer værdier udenfor funktionen, kan det skabe uforudsigelig opførsel. Dette sker især, hvis du arbejder med objekter eller arrays, da de bliver refereret direkte i stedet for kopieret. </p>
+</p>
+
+</body>
+</html>
